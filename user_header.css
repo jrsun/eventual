@@ -1,0 +1,11 @@
+#rightnav{
+	display: inline-block;
+	float: right;
+	width: 868px;
+	height: 52px;
+}
+
+.itemnav{
+	padding-top: 16px;
+	padding-bottom: 16px;
+}

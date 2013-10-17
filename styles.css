@@ -1,0 +1,76 @@
+#login,#reset,#register
+{
+	display: none;
+	text-align: center;
+	top: 15%;
+	right: 10%;
+	z-index: 3;
+	position: fixed;
+	background-color:white;
+	box-shadow: 0 0 40px white;
+	border-radius: 15px;
+
+}
+
+body {margin:100px 0px 0px 0px;}
+
+#fade
+{
+	display: none;
+	opacity: 0.7;
+	background-color: black;
+	position: fixed;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	z-index:2;
+	
+}
+
+#mainpage
+{
+	z-index: 1;
+	/*position:absolute;*/
+}
+
+.list
+{
+	float:left;
+	color: red;
+	
+}
+
+#header
+{
+    text-align: center;
+    color: #993738;
+}
+
+#newtable
+{
+    width:600px;
+    margin: 30px auto;
+    border-collapse:collapse;
+}
+#newtable td, #newtable th 
+{
+    font-size:1em;
+    border:1px solid #995050;
+    padding:3px 7px 2px 7px;
+}
+#newtable th 
+{
+    font-size:1.1em;
+    text-align:left;
+    padding-top:5px;
+    padding-bottom:4px;
+    background-color:#993738;
+    color:#ffffff;
+}
+#newtable tr:nth-child(even) td 
+{
+    color:#000000;
+    background-color:#cccccc;
+}
+
